@@ -39,7 +39,7 @@ vector<int> factorial(int n) {
 }
 
 int main() {
-    for (int i = 0; i <= 10000; i++) {
+    for (int i = 0; i <= 100; i++) {
         vector<int> result = factorial(i);
         cout << i << "! = ";
         for (int j = 0; j < result.size(); j++) {
