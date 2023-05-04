@@ -39,13 +39,13 @@ vector<int> factorial(int n) {
 }
 
 int main() {
-    for (int i = 0; i <= 100; i++) {
+    for (int i = 0; i <= 500; i++) {
         vector<int> result = factorial(i);
-        cout << i << "! = ";
-        for (int j = 0; j < result.size(); j++) {
-            cout << result[j];
-        }
-        cout << endl;
+        //cout << i << "! = ";
+        //for (int j = 0; j < result.size(); j++) {
+            //cout << result[j];
+        //}
+        //cout << endl;
     }
     return 0;
 }
